@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="jasper-rt" bajaVersion="0" vendor="Novant" vendorVersion="0.17" description="Jasper API for N4" preferredSymbol="jasper" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-2FGTLREG" moduleName="jasper" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.2"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.2"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.2"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type name="JasperService" class="jasper.service.BJasperService"/>
+  <type name="JasperServlet" class="jasper.servlet.BJasperServlet"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>

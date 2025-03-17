@@ -1,0 +1,9 @@
+<!-- Module Include File -->
+<!-- Types -->
+<types>
+
+  <!-- test.jasper -->
+  <type name="JsonTest"       class="test.jasper.BJsonTest" />
+  <type name="JasperUtilTest" class="test.jasper.BJasperUtilTest" />
+
+</types>
